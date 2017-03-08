@@ -1,0 +1,406 @@
+/* --------------------------------------------------------------------------------------------------------清除默认属性 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input{
+	margin:0;
+	padding:0;}
+ol,ul{
+	list-style:none;}
+img{
+	border:0;}
+.clear{
+	clear:both;}
+.h5{
+	height:5px;}
+.h10{
+	height:10px;}
+.h15{
+	height:15px;}
+.h20{
+	height:20px;}
+.h30{
+	height:30px;}
+.l10{
+	margin-left:10px;}
+.boxa{
+	border:1px solid #D9D9D9;}
+.boxb{
+	border:1px solid #FAFAFA;
+	background-color:#F0F0F0;
+	padding:10px;}
+/* -------------------------------------------------------------------------------------------------------- */
+body {
+	font:13px "宋体",arial,helvetica,clean,sans-serif;
+	text-align:center;
+	background-image:url('http://yunapi.oss-cn-beijing.aliyuncs.com/10009/image/Top_Background.jpg'); 
+	background-repeat: repeat-x;
+	background-position-y: top;
+	background-color:#EBEBEB;}
+a{
+	color:#3E3E3E;
+	text-decoration:none;}
+a:hover{
+	color:#4C9C93;}
+h1{
+	font-size:24px;
+	font-weight:bold;}
+h2{
+	font-size:14px;
+	font-weight:bold;}
+.left{
+	float:left;
+	display:inline;}
+.right{
+	float:right;
+	display:inline;}
+.box{
+	width:964px;
+	background-color:#FFF;
+	border:1px solid #D4D4D4;
+	padding:7px;
+	margin:0 auto;}
+.c_left{
+	text-align:left;}
+/* --------------------------------------------------------------------------------------------------------header */
+#header{
+	width:1000px;
+	height:140px;
+	text-align:left;
+	margin:0 auto;}
+#logo{
+	float:left;
+	height:100px;
+	line-height:100px;
+	padding-left:16px;
+	display:inline;}
+#h_right{
+	float:right;
+	text-align:right;
+	display:inline;}
+#login_info{
+	height:40px;
+	line-height:40px;}
+#top_search{
+	height:52px;
+	padding-top:8px;
+	padding-right:8px;}
+/* ----------------------------------------------------Menu */
+#headermenu{
+	width:1000px;
+	height:40px;}
+#headermenu a{
+	float:left;
+	width:100px;
+	text-align:center;
+	display:block;
+	font-weight:bold;
+	font-size:14px;
+	color:#FFFFFF;
+	line-height:42px;}
+#headermenu a:hover{
+	background-image:url("http://yunapi.oss-cn-beijing.aliyuncs.com/10009/image/Menu_ok.jpg");}
+#headermenu .okmenu{
+	background-image:url("http://yunapi.oss-cn-beijing.aliyuncs.com/10009/image/Menu_ok.jpg");}
+/* --------------------------------------------------------location */
+#location{
+	height:30px;
+	border-bottom:1px dashed #CCC;
+	margin-bottom:10px;}
+#location img{
+	float:left;
+	margin:4px 10px 0 5px;;
+	display:inline;}
+#location h2{
+	float:left;
+	line-height:30px;
+	display:inline;}
+#location span{
+	float:right;
+	line-height:30px;
+	display:inline;}
+/* --------------------------------------------------------------------------------------------------------AD */
+
+.ad3{
+	width:1000px;}
+.ad3 li{
+	float:left;
+	width:190px;
+	margin:5px;
+	height:80px;
+	display:inline;}
+.ad4{
+	width:1000px;}
+.ad4 li{
+	float:left;
+	width:240px;
+	margin:5px;
+	height:240px;
+	display:inline;}
+/* --------------------------------------------------------------------------------------------------------main */
+#main{
+	width:1000px;
+	margin:0 auto;}
+/* --------------------------------------------------------左侧菜单 */
+#leftmenu{
+	width:160px;}
+#leftmenu a{
+	display:block;
+	height:36px;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF;
+	line-height:36px;
+	background-color:#68AB9D;
+	border-left:8px solid #4E9C8C;
+	border-right:8px solid #4E9C8C;
+	margin-bottom:5px;}
+#leftmenu a:hover{
+	background-color:#77B1A5;}
+#cright{
+	width:800px;}
+/* -------------------------------------------------------------------------------------------------------- RegBox */
+.regbox{
+	width:478px;
+	height:500px;
+	background-color:#FFF;
+	border:1px solid #E9E9E9;
+	margin:0 auto;}
+/* --------------------------------------------------------------------------------------------------------首页 */
+.i_p{
+	text-align:left;
+	font-size:14px;
+	line-height:200%;}
+/* --------------------------------------------------------------------------------------------------------list pages */
+#PageRows{
+	margin:5px;
+	line-height: normal;
+	font-size:14px;}
+#PageRows a,#PageRows span{
+	padding:5px 5px 4px 5px;
+	margin-right:5px;
+	border:1px solid #DDDDDD;
+	background-image:url('http://yunapi.oss-cn-beijing.aliyuncs.com/10009/image/p0.jpg');
+	color: #666;
+	text-align:center;
+	display: inline-block;}
+#PageRows a:hover,#PageRows .aok{
+	color: #000;
+	background-image:url('http://yunapi.oss-cn-beijing.aliyuncs.com/10009/image/p1.jpg');
+	border:1px solid #DDDDDD;}
+/* -------------------------------------------------------------------------------------------------------- */
+#txts{
+	margin:10px 0 8px 0;
+	color: #666;
+	height:20px;
+	border-bottom-style:dashed;
+	border-bottom-width:1px;
+	border-bottom-color:#CCC;}
+#txts a{
+	color:#666;}
+#content{
+	width:auto;
+	height:auto!important;
+	min-height:200px;
+	height:200px;}
+.content{
+	font-size:14px;
+	text-align:left;
+	line-height:200%;}
+/* --------------------------------------------------------------------------------------------------------关系图 */
+.i1{
+	width:800px;
+	border-bottom:1px solid #66C1FF;}
+.i2{
+	width:700px;
+	background-color:#E4F4FF;
+	border-bottom:1px solid #66C1FF;}
+.i3{
+	width:600px;
+	background-color:#C9E9FF;
+	border-bottom:1px solid #66C1FF;}
+.i4{
+	width:500px;
+	background-color:#AFDEFF;
+	border-bottom:1px solid #66C1FF;}
+.i5{
+	width:400px;
+	background-color:#94D3FF;
+	border-bottom:1px solid #66C1FF;}
+.i6{
+	width:300px;
+	background-color:#AFDEFF;
+	border-bottom:1px solid #66C1FF;}
+.i7{
+	width:200px;
+	background-color:#C9E9FF;
+	border-bottom:1px solid #66C1FF;}
+.i8{
+	width:100px;
+	background-color:#E4F4FF;
+	border-bottom:1px solid #66C1FF;}
+.infoleft{
+	float:left;
+	display:inline;
+	width:90px;
+	text-align:left;
+	padding:5px;}
+.inforight1{
+	float:right;
+	display:inline;
+	width:700px;}
+.inforight2{
+	float:right;
+	display:inline;
+	width:600px;}
+.inforight3{
+	float:right;
+	display:inline;
+	width:500px;}
+.inforight4{
+	float:right;
+	display:inline;
+	width:400px;}
+.inforight5{
+	float:right;
+	display:inline;
+	width:300px;}
+.inforight6{
+	float:right;
+	display:inline;
+	width:200px;}
+.inforight7{
+	float:right;
+	display:inline;
+	width:100px;}
+/* --------------------------------------------------------------------------------------------------------help */
+#help{
+	width:976px;
+	height:90px;
+	padding-bottom:10px;
+	border-bottom:1px dashed #999;}
+#help .help_ico{
+	float:left;
+	display:inline;}
+#help ul{
+	float:right;
+	width:870px;
+	height:60px;
+	padding-top:15px;
+	display:inline;}
+#help ul li{
+	float:left;
+	width:33%;
+	height:30px;
+	line-height:30px;
+	display:inline;}
+#help ul li .help_doc{
+	float:left;
+	margin-top:6px;
+	margin-right:5px;
+	display:inline;}
+#help ul li a{
+	float:left;
+	display:inline;}
+/* --------------------------------------------------------------------------------------------------------downlist */
+#downlist{
+	width:auto;
+	height:auto!important;
+	text-align:left;
+	margin-bottom:10px;}
+#downlist li{
+	width:976px;
+	border-bottom:1px dashed #999;
+	padding:10px 0 15px 0;}
+#downlist .imgbox{
+	float:left;
+	width:190px;
+	padding:4px;
+	background-color:#FFF;
+	border: 1px solid #C0C0C0;
+	display:inline;}
+#downlist .info{
+	float:right;
+	width:760px;
+	padding-left:16px;
+	display:inline;}
+#downlist .info .title{
+	float:left;
+	width:620px;
+	height:40px;
+	display:inline;}
+#downlist .info .title a{
+	font-size:14px;
+	font-weight:bold;
+	color:#009999;
+	padding-bottom:5px;
+	display:block;}
+#downlist .info .title span{
+	font-size:12px;
+	color:#999999;
+	display:block;}
+#downlist .info .down{
+	float:left;
+	width:140px;
+	height:40px;
+	display:inline;}
+
+#downlist .info .content{
+	font-size:12px;
+	width:760px;}
+/* --------------------------------------------------------------------------------------------------------Form */
+/* --------------------------------------------------------------------------------------------------------book */
+table .tl{
+	text-align:right;}
+table .tr{
+	text-align:left;}
+form{
+	text-align:left;}
+form ul{
+	margin-left:130px;}
+form li{
+	margin:5px;}
+.select{
+	height:20px;
+	border:1px solid #CCC;
+	padding:5px;
+	line-height:20px;}
+.input{
+	height:20px;
+	border:1px solid #CCC;
+	padding:5px;
+	line-height:20px;}
+.textarea{
+	border:1px solid #CCC;
+	padding:5px;
+	line-height:20px;}
+.button{
+	width:120px;
+	height:38px;
+	border:0px;
+	background-color:#4E9C8C;
+	font-size:16px;
+	font-weight:bold;
+	cursor:pointer;
+	color:#FFF;}
+.sou{
+	width:80px;
+	height:32px;
+	border:0px;
+	background-color:#4E9C8C;
+	font-size:16px;
+	font-weight:bold;
+	cursor:pointer;
+	color:#FFF;}
+/* --------------------------------------------------------------------------------------------------------bottom */
+#bottom{
+
+	padding-top:18px;
+	background-image:url('http://yunapi.oss-cn-beijing.aliyuncs.com/10009/image/Bottom_Background.jpg'); 
+	background-repeat: repeat-x;
+	background-position-y: top;
+	background-color:#D7D7D7;
+	color:#666666;}
+#bottom li{
+	margin:8px 0 8px 0;}
+#bottom a{
+	color:#666666;}
+#bottom a:hover{
+	color:#4C9C93;}
